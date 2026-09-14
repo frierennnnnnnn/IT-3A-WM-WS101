@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($errors)) {
-        include "resume_simple.php";
+        include "resume_new.php";
         exit;
     }
 }
@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <tr>
         <td bgcolor="#F8F9FA">
-            <form method="POST" action="form.php">
+            <form method="POST" action="form_new.php">
                 <table width="100%" cellpadding="8">
 
                     <tr>

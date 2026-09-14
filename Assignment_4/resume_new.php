@@ -79,7 +79,7 @@ if ($careerTrack == "Systems Administrator") {
 </table>
 
 <p align="center">
-    <a href="form.php">Create Another Resume</a>
+    <a href="form_new.php">Create Another Resume</a>
 </p>
 
 </body>
